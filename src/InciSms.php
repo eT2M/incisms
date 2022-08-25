@@ -24,6 +24,7 @@ class InciSms
         $this->GonderimTarihi = @$ayar['gonderim_tarihi'] ? $ayar['gonderim_tarihi'] : '';
         $this->ZamanAsimi = @$ayar['zaman_asimi'] ? $ayar['zaman_asimi'] : '';
     }
+    
     public function test()
     {
         print_r($this);
