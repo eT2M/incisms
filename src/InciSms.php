@@ -19,12 +19,12 @@ class InciSms
         $this->kadi = @$ayar['kadi'];
         $this->sifre = @$ayar['sifre'];
         $this->secret = @$ayar['secret'] ? $ayar['secret'] : '';
-        $this->baslik = $ayar['baslik'];
+        $this->baslik = @$ayar['baslik'];
         $this->dil = @$ayar['dil'] ? $ayar['dil'] : 'Turkce';
         $this->GonderimTarihi = @$ayar['gonderim_tarihi'] ? $ayar['gonderim_tarihi'] : '';
         $this->ZamanAsimi = @$ayar['zaman_asimi'] ? $ayar['zaman_asimi'] : '';
     }
-    
+
     public function test()
     {
         print_r($this);
