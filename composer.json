@@ -1,0 +1,20 @@
+{
+    "name": "et2m/inci-sms",
+    "description": "inci Sms Gateway",
+    "type": "library",
+    "keywords": ["inci", "incisms", "sms", "laravel"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "eT2M\\InciSms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehmet ÖZDEMİR",
+            "email": "mehmet@et2m.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
