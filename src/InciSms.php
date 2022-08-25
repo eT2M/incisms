@@ -16,8 +16,8 @@ class InciSms
     public function __construct($ayar)
     {
         $this->id = @$ayar['id'] ? $ayar['id'] : '';
-        $this->kadi = $ayar['kadi'];
-        $this->sifre = $ayar['sifre'];
+        $this->kadi = @$ayar['kadi'];
+        $this->sifre = @$ayar['sifre'];
         $this->secret = @$ayar['secret'] ? $ayar['secret'] : '';
         $this->baslik = $ayar['baslik'];
         $this->dil = @$ayar['dil'] ? $ayar['dil'] : 'Turkce';
