@@ -16,5 +16,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "eT2M\\InciSms\\InciSmsServiceProvider"
+            ]
+        }
+    },
 }
